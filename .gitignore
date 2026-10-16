@@ -1,0 +1,21 @@
+# Node.js dependencies
+node_modules/
+*/node_modules/
+
+# Production build artifacts
+dist/
+*/dist/
+
+# Database files & directories
+*.db
+*.log
+pgdata/
+*/pgdata/
+server/pgdata/
+
+# Environment & IDE
+.env
+.env.local
+.DS_Store
+.vscode/
+.idea/
